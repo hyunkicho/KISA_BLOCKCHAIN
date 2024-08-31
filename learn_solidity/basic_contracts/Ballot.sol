@@ -127,7 +127,7 @@ contract Ballot {
      * @return winnerName_ the name of the winner
      */
     function winnerName() public view
-            returns (bytes32 winnerName_)
+            returns (string memory winnerName_)
     {
         winnerName_ = proposals[winningProposal()].name;
     }
