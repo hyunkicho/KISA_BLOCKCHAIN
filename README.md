@@ -1,7 +1,8 @@
 # KISA_BLOCKCHAIN
 KISA에서 진행한 블록체인 강의자료 입니다.
 
-
+<온라인 강의>
+https://youtu.be/QSqljl6CSLo?si=8o_uVkA1i6masrIo
 
 - 이론 참고자료
 - 
