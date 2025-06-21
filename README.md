@@ -41,3 +41,17 @@ hardhat docs
 ```
 https://hardhat.org/docs
 ```
+
+
+Dapp 띄우기 
+```
+## 먼저 contracts의 StroageEvent.sol을 remix에서 원하는 체인에 배포합니다.
+## 이제 배포한 체인의 배포한 스토리지 컨트렉트를 사용해 볼 수 있습니다.
+## node.js를 먼저 설치해야 합니다.
+## simple_dapp의 view의 index.ejs에서 contract address 변경
+## contract가 배포된 네트워크를 메타마스크에 연결해두기
+cd ./simple_dapp
+npm install ## 최초 1번 진행
+npm run start ## 매번 실행시에 진행
+## http://localhost:3000 접속 하면 자신이 배포한 컨트렉트에 상호작용이 가능합니다.
+```
